@@ -1,154 +1,154 @@
- - []      0 ./source/index.html.erb
- - []      0 ./TODO.md
- - []      1 ./Procfile
- - []      1 ./wc.sh
- - []      2 ./.buildpacks
- - []      7 ./source/404.html.erb
- - []      9 ./source/v2/other/index.html.md
- - []      9 ./source/v2/providers/custom.html.md
- - []     10 ./source/v2/index.html.md
- - []     11 ./source/v2/cli/resume.html.md
- - []     11 ./source/v2/providers/installation.html.md
- - []     14 ./source/v2/cli/status.html.md
- - []     15 ./source/v2/cli/rsync.html.md
- - []     15 ./source/v2/cli/version.html.md
- - []     15 ./source/v2/virtualbox/usage.html.md
- - []     16 ./source/v2/cli/ssh_config.html.md
- - []     16 ./source/v2/docker/boxes.html.md
- - []     17 ./Gemfile
- - []     17 ./source/v2/synced-folders/index.html.md
- - []     19 ./helpers/sidebar_helpers.rb
- - []     19 ./source/v2/cli/halt.html.md
- - []     19 ./source/v2/cli/suspend.html.md
- - []     19 ./source/v2/vagrantfile/vagrant_settings.html.md
- - []     20 ./source/v2/getting-started/rebuild.html.md
- - []     21 ./source/v2/hyperv/usage.html.md
- - []     21 ./source/v2/plugins/index.html.md
- - []     21 ./source/v2/virtualbox/index.html.md
- - []     21 ./source/v2/vmware/known-issues.html.md
- - []     22 ./source/v2/providers/default.html.md
- - []     23 ./source/v2/docker/index.html.md
- - []     23 ./source/v2/providers/index.html.md
- - []     23 ./Vagrantfile
- - []     24 ./source/v2/cli/provision.html.md
- - []     24 ./source/v2/hyperv/configuration.html.md
- - []     25 ./lib/redirect_to_latest.rb
- - []     26 ./lib/redirect_v1_docs.rb
- - []     26 ./README.md
- - []     26 ./source/v2/cli/rdp.html.md
- - []     26 ./source/v2/hyperv/index.html.md
- - []     26 ./source/v2/installation/upgrading-from-1-0.html.md
- - []     26 ./source/v2/share/provider.html.md
- - []     27 ./source/v2/cli/non-primary.html.md
- - []     27 ./source/v2/cli/reload.html.md
- - []     27 ./source/v2/installation/upgrading.html.md
- - []     27 ./source/v2/synced-folders/virtualbox.html.md
- - []     27 ./source/v2/vagrantfile/vagrant_version.html.md
- - []     28 ./source/v2/installation/index.html.md
- - []     29 ./source/v2/cli/index.html.md
- - []     29 ./source/v2/virtualbox/common-issues.html.md
- - []     30 ./source/v2/cli/connect.html.md
- - []     30 ./source/v2/cli/init.html.md
- - []     30 ./source/v2/docker/commands.html.md
- - []     30 ./source/v2/hyperv/limitations.html.md
- - []     31 ./source/v2/vmware/index.html.md
- - []     32 ./source/v2/cli/destroy.html.md
- - []     34 ./source/v2/cli/ssh.html.md
- - []     35 ./source/v2/cli/global-status.html.md
- - []     35 ./source/v2/cli/up.html.md
- - []     37 ./source/v2/share/index.html.md
- - []     38 ./source/v2/getting-started/up.html.md
- - []     39 ./source/v2/getting-started/providers.html.md
- - []     39 ./source/v2/provisioning/file.html.md
- - []     40 ./source/v2/networking/index.html.md
- - []     41 ./source/v2/getting-started/project_setup.html.md
- - []     41 ./source/v2/installation/backwards-compatibility.html.md
- - []     41 ./source/v2/installation/uninstallation.html.md
- - []     43 ./source/v2/cli/package.html.md
- - []     43 ./source/v2/networking/basic_usage.html.md
- - []     44 ./source/v2/getting-started/teardown.html.md
- - []     45 ./source/v2/getting-started/synced_folders.html.md
- - []     46 ./source/v2/cli/share.html.md
- - []     46 ./source/v2/provisioning/index.html.md
- - []     46 ./source/v2/why-vagrant/index.html.md
- - []     47 ./source/v2/cli/rsync-auto.html.md
- - []     48 ./source/v2/boxes.html.md
- - []     48 ./source/v2/getting-started/networking.html.md
- - []     49 ./source/v2/vagrantfile/tips.html.md
- - []     49 ./source/v2/vmware/usage.html.md
- - []     50 ./source/v2/other/debugging.html.md
- - []     50 ./source/v2/share/connect.html.md
- - []     53 ./source/v2/virtualbox/networking.html.md
- - []     55 ./config.ru
- - []     55 ./source/v2/vmware/kernel-upgrade.html.md
- - []     56 ./source/v2/share/security.html.md
- - []     58 ./source/v2/getting-started/index.html.md
- - []     59 ./source/v2/getting-started/share.html.md
- - []     59 ./source/v2/push/index.html.md
- - []     59 ./source/v2/vagrantfile/winrm_settings.html.md
- - []     60 ./source/v2/cli/login.html.md
- - []     62 ./source/v2/push/ftp.html.md
- - []     62 ./source/v2/vagrantfile/version.html.md
- - []     63 ./source/v2/plugins/host-capabilities.html.md
- - []     63 ./source/v2/push/heroku.html.md
- - []     64 ./source/v2/plugins/provisioners.html.md
- - []     67 ./source/v2/push/atlas.html.md
- - []     70 ./source/v2/plugins/usage.html.md
- - []     72 ./source/v2/push/local-exec.html.md
- - []     72 ./source/v2/virtualbox/configuration.html.md
- - []     77 ./config.rb
- - []     77 ./source/v2/getting-started/boxes.html.md
- - []     79 ./source/v2/share/ssh.html.md
- - []     80 ./source/v2/getting-started/provisioning.html.md
- - []     80 ./source/v2/vagrantfile/index.html.md
- - []     84 ./source/v2/provisioning/chef_zero.html.md
- - []     86 ./source/v2/synced-folders/smb.html.md
- - []     89 ./source/v2/providers/configuration.html.md
- - []     89 ./source/v2/share/http.html.md
- - []     91 ./source/v2/networking/private_network.html.md
- - []     91 ./source/v2/vmware/configuration.html.md
- - []     93 ./source/v2/cli/plugin.html.md
- - []     95 ./source/v2/plugins/hosts.html.md
- - []     95 ./source/v2/synced-folders/rsync.html.md
- - []     96 ./source/v2/networking/forwarded_ports.html.md
- - []     96 ./source/v2/provisioning/puppet_agent.html.md
- - []     99 ./source/v2/boxes/versioning.html.md
- - []     99 ./source/v2/plugins/guests.html.md
- - []    100 ./source/v2/docker/configuration.html.md
- - []    100 ./source/v2/plugins/guest-capabilities.html.md
- - []    101 ./source/v2/hyperv/boxes.html.md
- - []    102 ./source/v2/provisioning/chef_apply.html.md
- - []    106 ./source/v2/synced-folders/basic_usage.html.md
- - []    106 ./source/v2/vagrantfile/ssh_settings.html.md
- - []    107 ./source/v2/vmware/boxes.html.md
- - []    110 ./source/v2/plugins/packaging.html.md
- - []    110 ./source/v2/provisioning/chef_common.html.md
- - []    111 ./source/v2/boxes/format.html.md
- - []    112 ./source/v2/docker/basics.html.md
- - []    112 ./source/v2/providers/basic_usage.html.md
- - []    114 ./source/v2/other/environmental-variables.html.md
- - []    120 ./source/v2/provisioning/chef_client.html.md
- - []    127 ./source/v2/vmware/installation.html.md
- - []    132 ./source/v2/plugins/commands.html.md
- - []    144 ./source/v2/multi-machine/index.html.md
- - []    145 ./Gemfile.lock
- - []    146 ./source/v2/networking/public_network.html.md
- - []    151 ./source/v2/cli/machine-readable.html.md
- - []    162 ./source/v2/virtualbox/boxes.html.md
- - []    170 ./source/v2/provisioning/cfengine.html.md
- - []    171 ./source/v2/plugins/configuration.html.md
- - []    173 ./source/v2/vagrantfile/machine_settings.html.md
- - []    178 ./source/v2/plugins/development-basics.html.md
- - []    178 ./source/v2/provisioning/shell.html.md
- - []    180 ./source/v2/cli/box.html.md
- - []    181 ./source/v2/synced-folders/nfs.html.md
- - []    182 ./source/v2/provisioning/salt.html.md
- - []    196 ./source/v2/provisioning/chef_solo.html.md
- - []    196 ./source/v2/provisioning/docker.html.md
- - []    206 ./source/v2/provisioning/basic_usage.html.md
- - []    223 ./source/v2/provisioning/puppet_apply.html.md
- - []    234 ./source/v2/plugins/providers.html.md
- - []    276 ./source/v2/boxes/base.html.md
- - []    321 ./source/v2/provisioning/ansible.html.md
- - []    396 ./source/layouts/layout.erb
- - []  10848 total
+ - [ ]      0 ./source/index.html.erb
+ - [ ]      0 ./TODO.md
+ - [ ]      1 ./Procfile
+ - [ ]      1 ./wc.sh
+ - [ ]      2 ./.buildpacks
+ - [ ]      7 ./source/404.html.erb
+ - [ ]      9 ./source/v2/other/index.html.md
+ - [ ]      9 ./source/v2/providers/custom.html.md
+ - [ ]     10 ./source/v2/index.html.md
+ - [ ]     11 ./source/v2/cli/resume.html.md
+ - [ ]     11 ./source/v2/providers/installation.html.md
+ - [ ]     14 ./source/v2/cli/status.html.md
+ - [ ]     15 ./source/v2/cli/rsync.html.md
+ - [ ]     15 ./source/v2/cli/version.html.md
+ - [ ]     15 ./source/v2/virtualbox/usage.html.md
+ - [ ]     16 ./source/v2/cli/ssh_config.html.md
+ - [ ]     16 ./source/v2/docker/boxes.html.md
+ - [ ]     17 ./Gemfile
+ - [ ]     17 ./source/v2/synced-folders/index.html.md
+ - [ ]     19 ./helpers/sidebar_helpers.rb
+ - [ ]     19 ./source/v2/cli/halt.html.md
+ - [ ]     19 ./source/v2/cli/suspend.html.md
+ - [ ]     19 ./source/v2/vagrantfile/vagrant_settings.html.md
+ - [ ]     20 ./source/v2/getting-started/rebuild.html.md
+ - [ ]     21 ./source/v2/hyperv/usage.html.md
+ - [ ]     21 ./source/v2/plugins/index.html.md
+ - [ ]     21 ./source/v2/virtualbox/index.html.md
+ - [ ]     21 ./source/v2/vmware/known-issues.html.md
+ - [ ]     22 ./source/v2/providers/default.html.md
+ - [ ]     23 ./source/v2/docker/index.html.md
+ - [ ]     23 ./source/v2/providers/index.html.md
+ - [ ]     23 ./Vagrantfile
+ - [ ]     24 ./source/v2/cli/provision.html.md
+ - [ ]     24 ./source/v2/hyperv/configuration.html.md
+ - [ ]     25 ./lib/redirect_to_latest.rb
+ - [ ]     26 ./lib/redirect_v1_docs.rb
+ - [ ]     26 ./README.md
+ - [ ]     26 ./source/v2/cli/rdp.html.md
+ - [ ]     26 ./source/v2/hyperv/index.html.md
+ - [ ]     26 ./source/v2/installation/upgrading-from-1-0.html.md
+ - [ ]     26 ./source/v2/share/provider.html.md
+ - [ ]     27 ./source/v2/cli/non-primary.html.md
+ - [ ]     27 ./source/v2/cli/reload.html.md
+ - [ ]     27 ./source/v2/installation/upgrading.html.md
+ - [ ]     27 ./source/v2/synced-folders/virtualbox.html.md
+ - [ ]     27 ./source/v2/vagrantfile/vagrant_version.html.md
+ - [ ]     28 ./source/v2/installation/index.html.md
+ - [ ]     29 ./source/v2/cli/index.html.md
+ - [ ]     29 ./source/v2/virtualbox/common-issues.html.md
+ - [ ]     30 ./source/v2/cli/connect.html.md
+ - [ ]     30 ./source/v2/cli/init.html.md
+ - [ ]     30 ./source/v2/docker/commands.html.md
+ - [ ]     30 ./source/v2/hyperv/limitations.html.md
+ - [ ]     31 ./source/v2/vmware/index.html.md
+ - [ ]     32 ./source/v2/cli/destroy.html.md
+ - [ ]     34 ./source/v2/cli/ssh.html.md
+ - [ ]     35 ./source/v2/cli/global-status.html.md
+ - [ ]     35 ./source/v2/cli/up.html.md
+ - [ ]     37 ./source/v2/share/index.html.md
+ - [ ]     38 ./source/v2/getting-started/up.html.md
+ - [ ]     39 ./source/v2/getting-started/providers.html.md
+ - [ ]     39 ./source/v2/provisioning/file.html.md
+ - [ ]     40 ./source/v2/networking/index.html.md
+ - [ ]     41 ./source/v2/getting-started/project_setup.html.md
+ - [ ]     41 ./source/v2/installation/backwards-compatibility.html.md
+ - [ ]     41 ./source/v2/installation/uninstallation.html.md
+ - [ ]     43 ./source/v2/cli/package.html.md
+ - [ ]     43 ./source/v2/networking/basic_usage.html.md
+ - [ ]     44 ./source/v2/getting-started/teardown.html.md
+ - [ ]     45 ./source/v2/getting-started/synced_folders.html.md
+ - [ ]     46 ./source/v2/cli/share.html.md
+ - [ ]     46 ./source/v2/provisioning/index.html.md
+ - [ ]     46 ./source/v2/why-vagrant/index.html.md
+ - [ ]     47 ./source/v2/cli/rsync-auto.html.md
+ - [ ]     48 ./source/v2/boxes.html.md
+ - [ ]     48 ./source/v2/getting-started/networking.html.md
+ - [ ]     49 ./source/v2/vagrantfile/tips.html.md
+ - [ ]     49 ./source/v2/vmware/usage.html.md
+ - [ ]     50 ./source/v2/other/debugging.html.md
+ - [ ]     50 ./source/v2/share/connect.html.md
+ - [ ]     53 ./source/v2/virtualbox/networking.html.md
+ - [ ]     55 ./config.ru
+ - [ ]     55 ./source/v2/vmware/kernel-upgrade.html.md
+ - [ ]     56 ./source/v2/share/security.html.md
+ - [ ]     58 ./source/v2/getting-started/index.html.md
+ - [ ]     59 ./source/v2/getting-started/share.html.md
+ - [ ]     59 ./source/v2/push/index.html.md
+ - [ ]     59 ./source/v2/vagrantfile/winrm_settings.html.md
+ - [ ]     60 ./source/v2/cli/login.html.md
+ - [ ]     62 ./source/v2/push/ftp.html.md
+ - [ ]     62 ./source/v2/vagrantfile/version.html.md
+ - [ ]     63 ./source/v2/plugins/host-capabilities.html.md
+ - [ ]     63 ./source/v2/push/heroku.html.md
+ - [ ]     64 ./source/v2/plugins/provisioners.html.md
+ - [ ]     67 ./source/v2/push/atlas.html.md
+ - [ ]     70 ./source/v2/plugins/usage.html.md
+ - [ ]     72 ./source/v2/push/local-exec.html.md
+ - [ ]     72 ./source/v2/virtualbox/configuration.html.md
+ - [ ]     77 ./config.rb
+ - [ ]     77 ./source/v2/getting-started/boxes.html.md
+ - [ ]     79 ./source/v2/share/ssh.html.md
+ - [ ]     80 ./source/v2/getting-started/provisioning.html.md
+ - [ ]     80 ./source/v2/vagrantfile/index.html.md
+ - [ ]     84 ./source/v2/provisioning/chef_zero.html.md
+ - [ ]     86 ./source/v2/synced-folders/smb.html.md
+ - [ ]     89 ./source/v2/providers/configuration.html.md
+ - [ ]     89 ./source/v2/share/http.html.md
+ - [ ]     91 ./source/v2/networking/private_network.html.md
+ - [ ]     91 ./source/v2/vmware/configuration.html.md
+ - [ ]     93 ./source/v2/cli/plugin.html.md
+ - [ ]     95 ./source/v2/plugins/hosts.html.md
+ - [ ]     95 ./source/v2/synced-folders/rsync.html.md
+ - [ ]     96 ./source/v2/networking/forwarded_ports.html.md
+ - [ ]     96 ./source/v2/provisioning/puppet_agent.html.md
+ - [ ]     99 ./source/v2/boxes/versioning.html.md
+ - [ ]     99 ./source/v2/plugins/guests.html.md
+ - [ ]    100 ./source/v2/docker/configuration.html.md
+ - [ ]    100 ./source/v2/plugins/guest-capabilities.html.md
+ - [ ]    101 ./source/v2/hyperv/boxes.html.md
+ - [ ]    102 ./source/v2/provisioning/chef_apply.html.md
+ - [ ]    106 ./source/v2/synced-folders/basic_usage.html.md
+ - [ ]    106 ./source/v2/vagrantfile/ssh_settings.html.md
+ - [ ]    107 ./source/v2/vmware/boxes.html.md
+ - [ ]    110 ./source/v2/plugins/packaging.html.md
+ - [ ]    110 ./source/v2/provisioning/chef_common.html.md
+ - [ ]    111 ./source/v2/boxes/format.html.md
+ - [ ]    112 ./source/v2/docker/basics.html.md
+ - [ ]    112 ./source/v2/providers/basic_usage.html.md
+ - [ ]    114 ./source/v2/other/environmental-variables.html.md
+ - [ ]    120 ./source/v2/provisioning/chef_client.html.md
+ - [ ]    127 ./source/v2/vmware/installation.html.md
+ - [ ]    132 ./source/v2/plugins/commands.html.md
+ - [ ]    144 ./source/v2/multi-machine/index.html.md
+ - [ ]    145 ./Gemfile.lock
+ - [ ]    146 ./source/v2/networking/public_network.html.md
+ - [ ]    151 ./source/v2/cli/machine-readable.html.md
+ - [ ]    162 ./source/v2/virtualbox/boxes.html.md
+ - [ ]    170 ./source/v2/provisioning/cfengine.html.md
+ - [ ]    171 ./source/v2/plugins/configuration.html.md
+ - [ ]    173 ./source/v2/vagrantfile/machine_settings.html.md
+ - [ ]    178 ./source/v2/plugins/development-basics.html.md
+ - [ ]    178 ./source/v2/provisioning/shell.html.md
+ - [ ]    180 ./source/v2/cli/box.html.md
+ - [ ]    181 ./source/v2/synced-folders/nfs.html.md
+ - [ ]    182 ./source/v2/provisioning/salt.html.md
+ - [ ]    196 ./source/v2/provisioning/chef_solo.html.md
+ - [ ]    196 ./source/v2/provisioning/docker.html.md
+ - [ ]    206 ./source/v2/provisioning/basic_usage.html.md
+ - [ ]    223 ./source/v2/provisioning/puppet_apply.html.md
+ - [ ]    234 ./source/v2/plugins/providers.html.md
+ - [ ]    276 ./source/v2/boxes/base.html.md
+ - [ ]    321 ./source/v2/provisioning/ansible.html.md
+ - [ ]    396 ./source/layouts/layout.erb
+ - [ ]  10848 total
