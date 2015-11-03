@@ -1,7 +1,5 @@
  - [ ]      0 ./source/index.html.erb
- - [ ]      0 ./TODO.md
  - [ ]      1 ./Procfile
- - [ ]      1 ./wc.sh
  - [ ]      2 ./.buildpacks
  - [ ]      7 ./source/404.html.erb
  - [ ]      9 ./source/v2/other/index.html.md
