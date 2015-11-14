@@ -1,10 +1,10 @@
- - [ ]      0 ./source/index.html.erb
- - [ ]      1 ./Procfile
- - [ ]      2 ./.buildpacks
- - [ ]      7 ./source/404.html.erb
+ - [x]      0 ./source/index.html.erb
+ - [x]      1 ./Procfile
+ - [x]      2 ./.buildpacks
+ - [x]      7 ./source/404.html.erb
  - [ ]      9 ./source/v2/other/index.html.md
  - [ ]      9 ./source/v2/providers/custom.html.md
- - [ ]     10 ./source/v2/index.html.md
+ - [x]     10 ./source/v2/index.html.md
  - [ ]     11 ./source/v2/cli/resume.html.md
  - [ ]     11 ./source/v2/providers/installation.html.md
  - [ ]     14 ./source/v2/cli/status.html.md
