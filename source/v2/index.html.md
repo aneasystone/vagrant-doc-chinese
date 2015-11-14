@@ -2,9 +2,6 @@
 sidebar_current: "overview"
 ---
 
-# Vagrant Documentation
+# Vagrant 文档 
 
-Welcome to the Vagrant docs! This site documents Vagrant from top-to-bottom,
-covering every feature of Vagrant in great detail. If you're just getting
-started with Vagrant, it is highly recommended you start with the
-[getting started guide](/v2/getting-started/index.html).
+欢迎访问 Vagrant 文档！本站点自顶向下的介绍了 Vagrant，详细的覆盖了 Vagrant 的每个特性。如果你正在开始使用 Vagrant，强烈推荐你开始阅读[入门指南](/v2/getting-started/index.html).
