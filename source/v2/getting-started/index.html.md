@@ -3,56 +3,38 @@ page_title: "Getting Started"
 sidebar_current: "gettingstarted"
 ---
 
-# Getting Started
+# 新手入门
 
-The Vagrant getting started guide will walk you through your first
-Vagrant project, and show off the basics of the major features Vagrant
-has to offer.
+这份 Vagrant 入门指南将会带你创建你的第一个 Vagrant 项目，并向你展示 Vagrant 提供的基本的主要特性。
 
-If you're curious what benefits Vagrant has to offer, you
-should also read the ["Why Vagrant?"](/v2/why-vagrant/index.html) page.
+如果你对 Vagrant 都提供了哪些特性感到好奇，你应该还阅读［为什么使用  Vagrant？](/v2/why-vagrant/index.html) 这一节。
 
-The getting started guide will use Vagrant with [VirtualBox](http://www.virtualbox.org),
-since it is free, available on every major platform, and built-in to
-Vagrant. After reading the guide though, don't forget that Vagrant
-can work with [many other providers](/v2/getting-started/providers.html).
+这份入门指南将使用 [VirtualBox](http://www.virtualbox.org) 作为 Vagrant 的 provider，这是因为它不仅免费，支持各种不同的平台，而且内置于 Vagrant 。当你读完这份手册后，千万别忘了 Vagrant 还支持[其他各种 provider](/v2/getting-started/providers.html)。
 
-Before diving into your first project, please [install the latest version of Vagrant](/v2/installation/index.html).
-And because we'll be using [VirtualBox](http://www.virtualbox.org) as our
-provider for the getting started guide, please install that as well.
+在开始你的第一个 Vagrant 项目之前，请先 [安装最新版本的 Vagrant](/v2/installation/index.html)。然后由于我们在指南里使用了 [VirtualBox](http://www.virtualbox.org) 作为我们的 provider，请同样安装之。
 
 <div class="alert alert-block alert-info">
 <p>
-<strong>More of a book person?</strong> If you prefer to read a physical
-book, you may be interested in
+<strong>你更喜欢读书？</strong> 如果你更喜欢阅读实体书，你可能会对这本书感兴趣，
 <a href="http://www.amazon.com/gp/product/1449335837/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449335837&linkCode=as2&tag=vagrant-20">
 Vagrant: Up and Running
-</a>, written by the author of Vagrant and published by O'Reilly.
+</a>, 该书是由 Vagrant 的作者所写，并由 O'Reilly 出版。
 </p>
 </div>
 
-## Up and Running
+## 启动并运行
 
 ```
 $ vagrant init hashicorp/precise32
 $ vagrant up
 ```
 
-After running the above two commands, you'll have a fully running
-virtual machine in [VirtualBox](https://www.virtualbox.org) running
-Ubuntu 12.04 LTS 32-bit. You can SSH into this machine with
-`vagrant ssh`, and when you're done playing around, you can remove
-all traces of it with `vagrant destroy`.
+执行完上面的两个命令之后，你就拥有了一个运行着完整版 32 位 Ubuntu 12.04 LTS 系统的 [VirtualBox](https://www.virtualbox.org) 虚拟机，你可以使用 `vagrant ssh` 命令通过 SSH 连接这台机器，当你完成操作之后，你可以使用 `vagrant destroy` 命令清除所有痕迹。
 
-Now imagine every project you've ever worked on being this easy to
-set up.
+现在想象一下你工作过的每个项目都可以通过如此简单的方式进行设置。
 
-With Vagrant, `vagrant up` is all you need to work on any project,
-to install every dependency that project needs, and to set up any
-networking and synced folders so you can continue working from the
-comfort of your own machine.
+使用 Vagrant ，你只需要使用 `vagrant up` 命令，就可以为任何一个项目安装好所有的环境依赖，并且设置好网络连接和同步目录，这样你可以继续舒服的在你自己的电脑上进行工作。
 
-The rest of this guide will walk you through setting up a more
-complete project, covering more features of Vagrant.
+手册的剩余部分将带你完成一个更完整的项目，覆盖 Vagrant 的更多特性。
 
-<a href="/v2/getting-started/project_setup.html" class="button inline-button next-button">Project Setup</a>
+<a href="/v2/getting-started/project_setup.html" class="button inline-button next-button">项目的设置</a>
