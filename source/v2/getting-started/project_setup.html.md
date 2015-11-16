@@ -3,21 +3,14 @@ page_title: "Project Setup - Getting Started"
 sidebar_current: "gettingstarted-projectsetup"
 ---
 
-# Project Setup
+# 项目初始化
 
-The first step in configuring any Vagrant project is to create a
-[Vagrantfile](/v2/vagrantfile/index.html). The purpose of the
-Vagrantfile is twofold:
+配置任何一个 Vagrant 项目的第一步都是创建 [Vagrantfile](/v2/vagrantfile/index.html) 文件，这个文件有两方面的用处：
 
-1. Mark the root directory of your project. A lot of the configuration
-  of Vagrant is relative to this root directory.
+1. 标记项目的根目录，很多 Vagrant 的配置文件都相对于这个根目录；
+2. 描述机器的类型，以及运行项目所需的资源，需要安装的软件，以及你要如何访问它们。
 
-2. Describe the kind of machine and resources you need to run your project,
-  as well as what software to install and how you want to access it.
-
-Vagrant has a built-in command for initializing a directory for usage
-with Vagrant: `vagrant init`. For the purpose of this getting started guide,
-please follow along in your terminal:
+Vagrant 有一个内置的命令用来初始化目录：`vagrant init`，请在你的命令行里输入如下的命令：
 
 ```
 $ mkdir vagrant_getting_started
@@ -25,17 +18,11 @@ $ cd vagrant_getting_started
 $ vagrant init
 ```
 
-This will place a `Vagrantfile` in your current directory. You can
-take a look at the Vagrantfile if you want, it is filled with comments
-and examples. Don't be afraid if it looks intimidating, we'll modify it
-soon enough.
+这会在当前目录下新建一个 `Vagrantfile` 文件，如果感兴趣，可以看一眼这个 Vagrantfile 文件，它包含了一些注释和例子。如果它看起来很恐怖，请不要害怕，我们马上就要修改它了。
 
-You can also run `vagrant init` in a pre-existing directory to
-set up Vagrant for an existing project.
+你也可以在一个已存在的项目目录下运行 `vagrant init` 命令来初始化 Vagrant 。 
 
-The Vagrantfile is meant to be committed to version control with
-your project, if you use version control. This way, every person working
-with that project can benefit from Vagrant without any upfront work.
+如果你使用版本控制的话，Vagrantfile 文件应该和你的项目文件一起提交到版本控制中，这样下来，所有在这个项目下工作的人可以使用 Vagrant 而不需要任何其他的准备工作。
 
-<a href="/v2/getting-started/index.html" class="button inline-button prev-button">Getting Started</a>
+<a href="/v2/getting-started/index.html" class="button inline-button prev-button">新手入门</a>
 <a href="/v2/getting-started/boxes.html" class="button inline-button next-button">Boxes</a>
