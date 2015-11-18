@@ -2,7 +2,7 @@
  - [x]      1 ./Procfile
  - [x]      2 ./.buildpacks
  - [x]      7 ./source/404.html.erb
- - [ ]      9 ./source/v2/other/index.html.md
+ - [x]      9 ./source/v2/other/index.html.md
  - [ ]      9 ./source/v2/providers/custom.html.md
  - [x]     10 ./source/v2/index.html.md
  - [ ]     11 ./source/v2/cli/resume.html.md
@@ -59,7 +59,7 @@
  - [ ]     39 ./source/v2/getting-started/providers.html.md
  - [ ]     39 ./source/v2/provisioning/file.html.md
  - [ ]     40 ./source/v2/networking/index.html.md
- - [ ]     41 ./source/v2/getting-started/project_setup.html.md
+ - [x]     41 ./source/v2/getting-started/project_setup.html.md
  - [ ]     41 ./source/v2/installation/backwards-compatibility.html.md
  - [ ]     41 ./source/v2/installation/uninstallation.html.md
  - [ ]     43 ./source/v2/cli/package.html.md
