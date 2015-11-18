@@ -3,7 +3,6 @@ page_title: "Other"
 sidebar_current: "other"
 ---
 
-# Other
+# 其他
 
-This section covers other information that doesn't quite fit under the
-other categories. Please see the navigation to the left.
+这一节包含了一些不适合放在其他分类下的信息，请参看左侧的列表。

@@ -80,7 +80,7 @@
  - [ ]     55 ./config.ru
  - [ ]     55 ./source/v2/vmware/kernel-upgrade.html.md
  - [ ]     56 ./source/v2/share/security.html.md
- - [ ]     58 ./source/v2/getting-started/index.html.md
+ - [x]     58 ./source/v2/getting-started/index.html.md
  - [ ]     59 ./source/v2/getting-started/share.html.md
  - [ ]     59 ./source/v2/push/index.html.md
  - [ ]     59 ./source/v2/vagrantfile/winrm_settings.html.md
