@@ -3,7 +3,6 @@ page_title: "Custom Provider - Providers"
 sidebar_current: "providers-custom"
 ---
 
-# Custom Provider
+# 自定义 Provider
 
-To learn how to make your own custom providers, read the plugin development
-guide on [creating custom providers](/v2/plugins/providers.html).
+想学习如何制作自己的 provider，请阅读插件开发指南 [创建自定义 provider](/v2/plugins/providers.html)。

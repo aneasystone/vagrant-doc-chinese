@@ -3,9 +3,6 @@ page_title: "Installation - Providers"
 sidebar_current: "providers-installation"
 ---
 
-# Provider Installation
+# 安装 Provider
 
-Providers are distributed as Vagrant plugins, and are therefore installed
-using [standard plugin installation steps](/v2/plugins/usage.html). After
-installing a plugin which contains a provider, the provider should
-immediately be available.
+Provider 是作为 Vagrant 的插件来发布的，因此要使用 Vagrant 的[标准插件安装步骤](/v2/plugins/usage.html) 来安装。在安装完一个包含 provider 的插件之后，provider 就可以立即使用了。
