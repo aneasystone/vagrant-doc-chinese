@@ -6,7 +6,7 @@
  - [x]      9 ./source/v2/providers/custom.html.md
  - [x]     10 ./source/v2/index.html.md
  - [x]     11 ./source/v2/cli/resume.html.md
- - [ ]     11 ./source/v2/providers/installation.html.md
+ - [x]     11 ./source/v2/providers/installation.html.md
  - [ ]     14 ./source/v2/cli/status.html.md
  - [ ]     15 ./source/v2/cli/rsync.html.md
  - [ ]     15 ./source/v2/cli/version.html.md
