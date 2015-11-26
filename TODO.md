@@ -8,7 +8,7 @@
  - [x]     11 ./source/v2/cli/resume.html.md
  - [x]     11 ./source/v2/providers/installation.html.md
  - [x]     14 ./source/v2/cli/status.html.md
- - [ ]     15 ./source/v2/cli/rsync.html.md
+ - [x]     15 ./source/v2/cli/rsync.html.md
  - [ ]     15 ./source/v2/cli/version.html.md
  - [ ]     15 ./source/v2/virtualbox/usage.html.md
  - [ ]     16 ./source/v2/cli/ssh_config.html.md

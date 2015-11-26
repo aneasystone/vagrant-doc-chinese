@@ -5,11 +5,8 @@ sidebar_current: "cli-rsync"
 
 # Rsync
 
-**Command: `vagrant rsync`**
+**命令：`vagrant rsync`**
 
-This command forces a resync of any
-[rsync synced folders](/v2/synced-folders/rsync.html).
+该命令用于在[rsync 同步目录](/v2/synced-folders/rsync.html)上执行一次强制同步操作。
 
-Note that if you change any settings within the rsync synced folders such
-as exclude paths, you'll need to `vagrant reload` before this command will
-pick up those changes.
+注意如果你修改了 rsync 同步目录下的设置，譬如 exclude path 参数，你需要先运行 `vagrant reload` 命令让这些修改生效。
