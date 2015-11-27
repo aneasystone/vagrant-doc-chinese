@@ -3,13 +3,10 @@ page_title: "vagrant version - Command-Line Interface"
 sidebar_current: "cli-version"
 ---
 
-# Version
+# 版本
 
-**Command: `vagrant version`**
+**命令：`vagrant version`**
 
-This command tells you the version of Vagrant you have installed
-as well as the latest version of Vagrant that is currently available.
+该命令用于查看你安装的 Vagrant 版本，以及当前可用的最新的版本。
 
-In order to determine the latest available Vagrant version, this
-command must make a network call. If you only want to see the currently
-installed version, use `vagrant --version`.
+为了获取当前可用的最新版本，这个命令必须访问网络，如果你只需要查看当前安装的版本，可以使用 `vagrant --version` 命令。
