@@ -11,7 +11,7 @@
  - [x]     15 ./source/v2/cli/rsync.html.md
  - [x]     15 ./source/v2/cli/version.html.md
  - [x]     15 ./source/v2/virtualbox/usage.html.md
- - [ ]     16 ./source/v2/cli/ssh_config.html.md
+ - [x]     16 ./source/v2/cli/ssh_config.html.md
  - [ ]     16 ./source/v2/docker/boxes.html.md
  - [ ]     17 ./Gemfile
  - [ ]     17 ./source/v2/synced-folders/index.html.md
