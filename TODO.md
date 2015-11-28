@@ -10,7 +10,7 @@
  - [x]     14 ./source/v2/cli/status.html.md
  - [x]     15 ./source/v2/cli/rsync.html.md
  - [x]     15 ./source/v2/cli/version.html.md
- - [ ]     15 ./source/v2/virtualbox/usage.html.md
+ - [x]     15 ./source/v2/virtualbox/usage.html.md
  - [ ]     16 ./source/v2/cli/ssh_config.html.md
  - [ ]     16 ./source/v2/docker/boxes.html.md
  - [ ]     17 ./Gemfile
