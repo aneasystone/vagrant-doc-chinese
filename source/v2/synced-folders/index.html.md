@@ -3,15 +3,10 @@ page_title: "Synced Folders"
 sidebar_current: "syncedfolder"
 ---
 
-# Synced Folders
+# 同步目录
 
-Synced folders enable Vagrant to sync a folder on the host machine to the
-guest machine, allowing you to continue working on your project's files
-on your host machine, but use the resources in the guest machine to
-compile or run your project.
+同步目录可以让 Vagrant 从本地主机同步一个目录到虚拟机，这样你就可以继续在你的本地项目文件上进行工作，但是却可以使用虚拟机上的资源来编译或运行你的项目。
 
-By default, Vagrant will share your project directory (the directory
-with the [Vagrantfile](/v2/vagrantfile/index.html)) to `/vagrant`.
+Vagrant 默认情况下会把你的项目目录（包含 [Vagrantfile](/v2/vagrantfile/index.html) 文件的目录) 同步到 `/vagrant` 。
 
-Read the [basic usage](/v2/synced-folders/basic_usage.html) page to get started
-with synced folders.
+阅读 [基本用法](/v2/synced-folders/basic_usage.html) 一节开始使用同步目录吧。
