@@ -3,17 +3,14 @@ page_title: "vagrant halt - Command-Line Interface"
 sidebar_current: "cli-halt"
 ---
 
-# Halt
+# 关闭
 
-**Command: `vagrant halt`**
+**命令：`vagrant halt`**
 
-This command shuts down the running machine Vagrant is managing.
+该命令用于关闭 Vagrant 正在管理的机器。
 
-Vagrant will first attempt to gracefully shut down the machine by running
-the guest OS shutdown mechanism. If this fails, or if the `--force` flag is
-specified, Vagrant will effectively just shut off power to the machine.
+Vagrant 首先会根据虚拟机提供的关机方法来优雅的关闭计算机，如果这一步失败了，或者指定了 `--force` 选项，Vagrant 就会直接关闭电源。
 
-## Options
+## 选项
 
-* `-f` or `--force` - Don't attempt to gracefully shut down the machine.
-  This effectively pulls the power on the guest machine.
+* `-f` or `--force` - 不使用优雅关机，直接关闭虚拟机电源。
