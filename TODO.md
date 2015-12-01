@@ -17,7 +17,7 @@
  - [x]     17 ./source/v2/synced-folders/index.html.md
  - [x]     19 ./helpers/sidebar_helpers.rb
  - [x]     19 ./source/v2/cli/halt.html.md
- - [ ]     19 ./source/v2/cli/suspend.html.md
+ - [x]     19 ./source/v2/cli/suspend.html.md
  - [ ]     19 ./source/v2/vagrantfile/vagrant_settings.html.md
  - [ ]     20 ./source/v2/getting-started/rebuild.html.md
  - [ ]     21 ./source/v2/hyperv/usage.html.md
