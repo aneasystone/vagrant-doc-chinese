@@ -3,17 +3,13 @@ page_title: "config.vagrant - Vagrantfile"
 sidebar_current: "vagrantfile-vagrant"
 ---
 
-# Vagrant Settings
+# Vagrant 设置
 
-**Config namespace: `config.vagrant`**
+**配置名字空间：`config.vagrant`**
 
-The settings within `config.vagrant` modify the behavior of Vagrant
-itself.
 
-## Available Settings
+`config.vagrant` 这个名字空间下的配置用于修改 Vagrant 自身的行为。
 
-`config.vagrant.host` - This sets the type of host machine that is running
-Vagrant. By default this is `:detect`, which causes Vagrant to auto-detect
-the host. Vagrant needs to know this information in order to perform some
-host-specific things, such as preparing NFS folders if they're enabled.
-You should only manually set this if auto-detection fails.
+## 可用配置
+
+`config.vagrant.host` - 用于设置运行 Vagrant 的主机类型，默认值为 `:detect` ，可以让 Vagrant 自动检测主机。Vagrant 需要知道这些信息，用来做一些和主机相关的事情，譬如初始化 NFS 目录。只有当自动检测失败的情况下你才需要手工设置它。
