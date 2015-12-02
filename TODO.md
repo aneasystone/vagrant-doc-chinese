@@ -19,7 +19,7 @@
  - [x]     19 ./source/v2/cli/halt.html.md
  - [x]     19 ./source/v2/cli/suspend.html.md
  - [x]     19 ./source/v2/vagrantfile/vagrant_settings.html.md
- - [ ]     20 ./source/v2/getting-started/rebuild.html.md
+ - [x]     20 ./source/v2/getting-started/rebuild.html.md
  - [ ]     21 ./source/v2/hyperv/usage.html.md
  - [ ]     21 ./source/v2/plugins/index.html.md
  - [ ]     21 ./source/v2/virtualbox/index.html.md

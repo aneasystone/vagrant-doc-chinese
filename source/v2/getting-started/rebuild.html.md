@@ -3,18 +3,15 @@ page_title: "Rebuild - Getting Started"
 sidebar_current: "gettingstarted-rebuild"
 ---
 
-# Rebuild
+# 重建
 
-When you're ready to come back to your project, whether it is tomorrow,
-a week from now, or a year from now, getting it up and running is easy:
+无论是明天，一周以后，还是一年以后，一当你打算重新回到你的项目中来时，启动并运行它是非常容易的：
 
 ```
 $ vagrant up
 ```
 
-That's it! Since the Vagrant environment is already all configured via
-the Vagrantfile, you or any of your coworkers simply have to run a
-`vagrant up` at any time and Vagrant will recreate your work environment.
+这样就行了！由于 Vagrant 的环境已经都通过 Vagrantfile 配置好了，你或你的同事们都只需要简单的运行一句 `vagrant up` 命令，无论在什么时候，Vagrant 都会重建你的工作环境。
 
 <a href="/v2/getting-started/teardown.html" class="button inline-button prev-button">Teardown</a>
 <a href="/v2/getting-started/providers.html" class="button inline-button next-button">Providers</a>
