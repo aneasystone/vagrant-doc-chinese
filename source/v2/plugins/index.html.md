@@ -3,19 +3,12 @@ page_title: "Plugins"
 sidebar_current: "plugins"
 ---
 
-# Plugins
+# 插件
 
-Vagrant comes with many great features out of the box to get your environments up
-and running. Sometimes, however, you want to change the way Vagrant does something
-or add additional functionality to Vagrant. This can be done via Vagrant
-_plugins_.
+Vagrant 自带了很多强大的特性，可以让你的环境跑起来，但是有时，你还可能想要修改 Vagrant 的某种处理方式或者为 Vagrant 添加新的功能。这都可以通过 Vagrant 的 _插件_ 来实现。
 
-Plugins are powerful, first-class citizens that extend Vagrant using a
-well-documented, stable API that can withstand major version upgrades.
+Vagrant 的插件相当强大，它属于头等公民，它有着良好的文档，稳定的 API，在主版本升级中也能很好的兼容。
 
-In fact, most of the core of Vagrant is [implemented using plugins](https://github.com/mitchellh/vagrant/tree/master/plugins).
-Since Vagrant [dogfoods](http://en.wikipedia.org/wiki/Eating_your_own_dog_food) its own
-plugin API, you can be confident that the interface is stable and well supported.
+实际上，Vagrant 的很多核心功能都是 [通过插件实现的](https://github.com/mitchellh/vagrant/tree/master/plugins)。你看，连 Vagrant 自己都在 [吃自己的狗粮](http://en.wikipedia.org/wiki/Eating_your_own_dog_food) ，所以，你要相信 Vagrant 的插件 API 是相当稳定的，而且可以得到很好的支持。
 
-Use the navigation on the left below the "Plugins" section to learn more
-about how to use and build your own plugins.
+查看左侧 "插件" 一节下面的导航，可以进一步学习如何使用并构建自己的插件。

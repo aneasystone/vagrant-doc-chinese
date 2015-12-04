@@ -21,7 +21,7 @@
  - [x]     19 ./source/v2/vagrantfile/vagrant_settings.html.md
  - [x]     20 ./source/v2/getting-started/rebuild.html.md
  - [x]     21 ./source/v2/hyperv/usage.html.md
- - [ ]     21 ./source/v2/plugins/index.html.md
+ - [x]     21 ./source/v2/plugins/index.html.md
  - [ ]     21 ./source/v2/virtualbox/index.html.md
  - [ ]     21 ./source/v2/vmware/known-issues.html.md
  - [ ]     22 ./source/v2/providers/default.html.md
