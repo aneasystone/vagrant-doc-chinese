@@ -25,7 +25,7 @@
  - [x]     21 ./source/v2/virtualbox/index.html.md
  - [x]     21 ./source/v2/vmware/known-issues.html.md
  - [x]     22 ./source/v2/providers/default.html.md
- - [ ]     23 ./source/v2/docker/index.html.md
+ - [x]     23 ./source/v2/docker/index.html.md
  - [ ]     23 ./source/v2/providers/index.html.md
  - [ ]     23 ./Vagrantfile
  - [ ]     24 ./source/v2/cli/provision.html.md
