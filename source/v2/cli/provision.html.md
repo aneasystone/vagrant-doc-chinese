@@ -5,20 +5,12 @@ sidebar_current: "cli-provision"
 
 # Provision
 
-**Command: `vagrant provision`**
+**命令：`vagrant provision`**
 
-Runs any configured [provisioners](/v2/provisioning/index.html)
-against the running Vagrant managed machine.
+在指定 Vagrant 虚拟机上运行已配置的 [provisioner](/v2/provisioning/index.html) 。
 
-This command is a great way to quickly test any provisioners, and is especially
-useful for incremental development of shell scripts, Chef cookbooks, or Puppet
-modules. You can just make simple modifications to the provisioning scripts
-on your machine, run a `vagrant provision`, and check for the desired results.
-Rinse and repeat.
+这个命令用来测试 provisioner 非常快速方便，而且它尤其适合于 shell 脚本、Chef 或者 Puppet 模块的增量开发。你只需要简单的在你本地修改要测试的脚本，然后运行 `vagrant provision` 命令来检查返回值是否符合预期。如此反复测试即可。
 
-# Options
+# 选项
 
-* `--provision-with x,y,z` - This will only run the given provisioners. For
-  example, if you have a `:shell` and `:chef_solo` provisioner and run
-  `vagrant provision --provision-with shell`, only the shell provisioner will
-  be run.
+* `--provision-with x,y,z` - 只运行指定 provisioner，例如，如果你有两个 provisioner：一个 `:shell` 一个 `:chef_solo`，当你运行 `vagrant provision --provision-with shell` 时，只有 shell provisioner 将会被执行。
