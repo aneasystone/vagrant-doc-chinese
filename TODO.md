@@ -29,7 +29,7 @@
  - [x]     23 ./source/v2/providers/index.html.md
  - [ ]     23 ./Vagrantfile
  - [x]     24 ./source/v2/cli/provision.html.md
- - [ ]     24 ./source/v2/hyperv/configuration.html.md
+ - [x]     24 ./source/v2/hyperv/configuration.html.md
  - [ ]     25 ./lib/redirect_to_latest.rb
  - [ ]     26 ./lib/redirect_v1_docs.rb
  - [ ]     26 ./README.md
