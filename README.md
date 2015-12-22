@@ -1,26 +1,21 @@
-# Vagrant Documentation
+# Vagrant 文档
 
-This is the repository for the [Vagrant Documentation website](http://docs.vagrantup.com).
+这里是 [Vagrant 官方文档](http://docs.vagrantup.com) 的源码仓库。
 
-This is a [Middleman](http://middlemanapp.com) project, which builds a static
-site from these source files. The site is hosted on [Heroku](http://heroku.com)
-and then fronted by [Fastly](http://fastly.com).
+这其实是一个 [Middleman](http://middlemanapp.com) 项目， 它可以根据这些源码生成一个静态站点。我们的站点部署在 [Heroku](http://heroku.com)
+ 主机上，前端采用了 [Fastly](http://fastly.com) 主题。
+ 
+## 欢迎反馈
 
-## Contributions Welcome!
+如果你发现文档中有拼写错误，或者你可以改善页面的 HTML、CSS 和 JavaScript，欢迎反馈给我们。你可以像其他的 GitHub 项一样，提交 issues 或者 pull request ，我们将会合并进来。
 
-If you find a typo or you feel like you can improve the HTML, CSS, or
-JavaScript, we welcome contributions. Feel free to open issues or pull
-requests like any normal GitHub project, and we'll merge it in.
+## 本地运行站点
 
-## Running the Site Locally
-
-Running the site locally is simple. Clone this repo and run the following
-commands:
+在本地直接运行这个站点很简单，将项目 clone 到本地，然后运行下面的命令：
 
 ```
 $ bundle
 $ bundle exec middleman server
 ```
 
-Then open up `localhost:4567`. Note that some URLs you may need to append
-".html" to make them work (in the navigation and such).
+然后打开 `localhost:4567` 即可。注意有些 URL 可能需要在尾部添加 ".html" 才能访问（类似于导航链接）。

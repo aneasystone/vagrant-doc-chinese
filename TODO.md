@@ -32,7 +32,7 @@
  - [x]     24 ./source/v2/hyperv/configuration.html.md
  - [ ]     25 ./lib/redirect_to_latest.rb
  - [ ]     26 ./lib/redirect_v1_docs.rb
- - [ ]     26 ./README.md
+ - [x]     26 ./README.md
  - [ ]     26 ./source/v2/cli/rdp.html.md
  - [ ]     26 ./source/v2/hyperv/index.html.md
  - [ ]     26 ./source/v2/installation/upgrading-from-1-0.html.md
