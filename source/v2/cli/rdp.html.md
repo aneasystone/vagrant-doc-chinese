@@ -5,22 +5,17 @@ sidebar_current: "cli-rdp"
 
 # RDP
 
-**Command: `vagrant rdp`**
+**命令：`vagrant rdp`**
 
-This will start an RDP client for a remote desktop session with the
-guest. This only works for Vagrant environments that support remote
-desktop, which is typically only Windows.
+这个命令会启动一个 RDP 客户端来创建到虚拟机的远程桌面会话。注意该命令只能用于支持远程桌面的 Vagrant 环境，一般情况下就是 Windows 。
 
-## Raw Arguments
+## 命令参数
 
-You can pass raw arguments through to your RDP client on the
-command-line by appending it after a `--`. Vagrant just passes
-these through. For example:
+你可以在命令行中使用 RDP 客户端原生的命令参数，只需要将这些参数放在 `--` 后面，Vagrant 会把 `--` 后面的参数透传给 RDP 客户端。例如：
 
 ```
 $ vagrant rdp -- /span
 ...
 ```
 
-The above command on Windows will execute `mstsc.exe /span config.rdp`,
-allowing your RDP to span multiple desktops.
+上面的命令如果在 Windows 系统上运行的话，将会运行 `mstsc.exe /span config.rdp` 命令，允许你扩展到多个桌面。
