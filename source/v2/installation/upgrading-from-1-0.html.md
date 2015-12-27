@@ -3,24 +3,12 @@ page_title: "Upgrading from Vagrant 1.0"
 sidebar_current: "installation-upgrading-1-0"
 ---
 
-# Upgrading From Vagrant 1.0.x
+# 从 Vagrant 1.0.x 升级
 
-The upgrade process from 1.0.x to 1.x is straightforward. Vagrant is quite
-[backwards compatible](/v2/installation/backwards-compatibility.html)
-with Vagrant 1.0.x, so you can simply reinstall Vagrant
-over your previous installation by downloading the latest package and
-installing it using standard procedures for your operating system.
+从 1.0.x 版本升级到 1.x 版本是相当简单的，Vagrant 对 1.0.x 版本有着相当好的 [向后兼容性](/v2/installation/backwards-compatibility.html)，所以你只要下载最新版的 Vagrant 安装包，使用标准的安装步骤重新安装 Vagrant 覆盖老版本即可。
 
-As the [backwards compatibility](/v2/installation/backwards-compatibility.html)
-page says, **Vagrant 1.0.x plugins will not work with Vagrant 1.1+**. Many
-of these plugins have been updated to work with newer versions of Vagrant,
-so you can look to see if they've been updated. If not however, you'll have
-to remove them before upgrading.
+正如 [向后兼容性](/v2/installation/backwards-compatibility.html) 这个页面所说的，**Vagrant 1.0.x 下的插件在 Vagrant 1.1 以上的版本中不能使用了**。大多数这些插件都已经升级，能和最新版的 Vagrant 一起工作了，所以你可以先看看你所使用的插件是否已经升级，如果没有，你需要在升级 Vagrant 之前移除它们。
 
-It is recommended you remove _all_ plugins before upgrading, and then slowly
-add back the plugins. This usually makes for a smoother upgrade process.
+推荐你在升级 Vagrant 之前先移除 _所有的_ 插件，然后再慢慢的将这些插件添加回来。这样通常能使升级过程更顺利。
 
-**However**, if your version of Vagrant was installed via RubyGems, then
-you must `gem uninstall` the old version prior to installing the package for
-the latest version of Vagrant. The RubyGems-based installation method has
-been removed.
+**不过**，如果你之前的 Vagrant 是通过 RubyGems 安装的，那么你需要通过 `gem uninstall` 先卸载老版本的 Vagrant ，然后再安装最新版本。基于 RubyGems 的安装方法已经被移除了。

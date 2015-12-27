@@ -35,7 +35,7 @@
  - [x]     26 ./README.md
  - [x]     26 ./source/v2/cli/rdp.html.md
  - [x]     26 ./source/v2/hyperv/index.html.md
- - [ ]     26 ./source/v2/installation/upgrading-from-1-0.html.md
+ - [x]     26 ./source/v2/installation/upgrading-from-1-0.html.md
  - [ ]     26 ./source/v2/share/provider.html.md
  - [ ]     27 ./source/v2/cli/non-primary.html.md
  - [ ]     27 ./source/v2/cli/reload.html.md
